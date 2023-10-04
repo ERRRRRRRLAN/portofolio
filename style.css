@@ -435,6 +435,11 @@ html {
     background-color: var(--thirdcolor);
     color: rgb(27, 27, 27); /* Warna latar belakang saat tombol dihover */
   }
+  .contact p {
+    color: var(--textcolor);
+    font-size: var(--textsize);
+    margin-bottom: -10px;
+  }
   /* Firefox */
   * {
     scrollbar-width: thin;
@@ -595,7 +600,6 @@ html {
   #check {
     display: none;
   }
-  
 }
 @media (max-width: 1280px) {
   .project1,
