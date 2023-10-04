@@ -669,9 +669,25 @@ html {
   body::-webkit-scrollbar {
     width: 0.5em;
   }
+  .profile {
+    background-image: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: 6.25em;
+    /* background-color: var(--bgcolor); */
+  }
 }
 
 @media (max-width: 480px) {
+  .profile {
+    background-image: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: 6.25em;
+    /* background-color: var(--bgcolor); */
+  }
   body {
     font-size: 9px;
   }
