@@ -677,7 +677,7 @@ html {
   #check {
     display: none;
   }
-  ul {
+  .navpc {
     display: flex;
     flex-direction: column;
     position: fixed;
