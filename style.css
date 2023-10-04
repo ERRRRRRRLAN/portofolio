@@ -637,6 +637,7 @@ html {
   body::-webkit-scrollbar {
     width: 0.7em;
   }
+  
 }
 @media (max-width: 640px) {
   body {
@@ -669,14 +670,6 @@ html {
   body::-webkit-scrollbar {
     width: 0.5em;
   }
-  .profile {
-    background-image: url(img/bg1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    padding-top: 6.25em;
-    /* background-color: var(--bgcolor); */
-  }
 }
 
 @media (max-width: 480px) {
@@ -686,6 +679,9 @@ html {
     background-size: 100% 100%;
     background-position: center;
     padding-top: 6.25em;
+    background-size: cover;
+    width: 100%; /* Sesuaikan dengan lebar yang Anda inginkan */
+  padding-bottom: 50%; /* Ini akan membuat rasio 1:1 */
     /* background-color: var(--bgcolor); */
   }
   body {
