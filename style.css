@@ -528,6 +528,19 @@ html {
       opacity: 1;
     }
   }
+  @keyframes fadeinright {
+    0% {
+      transform: translateX(6.25em);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
   @keyframes fadeinbottom {
     0% {
       transform: translateY(6.25em);
@@ -673,6 +686,10 @@ html {
 }
 
 @media (max-width: 480px) {
+   nav h1 {
+    margin: 0 1.7em;
+    animation: fadeinright 1s ease forwards;
+  }
   .profile {
     background-image: url(img/bg1.jpg);
     background-repeat: no-repeat;
